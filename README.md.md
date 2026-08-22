@@ -1,0 +1,99 @@
+# 💬 abah_chat — Persistent Memory Local Chatbot
+
+A local-first conversational AI tool featuring persistent memory. Return to your chat history at any time or seamlessly switch models while retaining full context of your previous conversations.
+
+---
+
+## 📖 Table of Contents
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Credits](#-credits)
+- [Contacts](#-contacts)
+- [Buy Me a Coffee](#-buy-me-a-coffee)
+
+---
+
+## 📌 Overview
+
+**abah_chat** is designed to eliminate session loss during local LLM interactions. It stores conversation histories across sessions in persistent storage, allowing you to:
+- Resume conversations exactly where you left off.
+- Switch between different local models without losing chat context.
+- Query the LLM about past discussions and saved history.
+
+---
+
+## ✨ Key Features
+
+- **Persistent Chat History:** Conversations are saved locally across restarts.
+- **Model Interoperability:** Swap the underlying LLM at any point and continue referencing prior context.
+- **Context Querying:** Prompt the LLM directly to summarize or recall where you left off in past sessions.
+- **100% Local & Private:** Powered locally through Ollama.
+
+---
+
+## ⚙️ Prerequisites
+
+- **Python:** `3.12.13` (or Python `3.12+`)
+- **Ollama:** Installed and running locally
+
+---
+
+## 📥 Installation
+
+1. **Clone the repository and navigate to the project root:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+
+2. **Install the package in editable mode:**
+   ```bash
+   pip install -e .
+   ```
+
+3. **Pull the model in Ollama:**
+   ```bash
+   ollama pull gemma4:12b
+   ```
+
+---
+
+## 🚀 Usage
+
+1. **Start the Ollama background service:**
+   ```bash
+   ollama serve
+   ```
+
+2. **Launch the chat assistant in your CLI:**
+   ```bash
+   abah_chat
+   ```
+
+3. **Interact with the assistant:**
+   - Type your messages normally to chat.
+   - Ask contextual questions such as *"Where did we leave off last time?"* or *"Summarize our previous conversation"*.
+
+---
+
+## 👥 Credits
+
+- **Author:** John Abah
+
+---
+
+## 📬 Contacts
+
+- **Email:** [john.abah@stud.hshl.de](mailto:john.abah@stud.hshl.de)
+- **LinkedIn:** [John Abah](https://www.linkedin.com/in/john-abah-311ab233a/)
+
+---
+
+## ☕ Buy Me a Coffee
+
+If you found this project helpful, feel free to support:
+- [Buy Me a Coffee Link](https://buymeacoffee.com/johnabah)
+

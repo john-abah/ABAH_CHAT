@@ -1,0 +1,2 @@
+[console_scripts]
+abah_chat = abah_chat.main:ABAH_CHAT
