@@ -10,6 +10,7 @@ A local-first conversational AI tool featuring persistent memory. Return to your
 - [Prerequisites](#-prerequisites)
 - [Installation](#-installation)
 - [Usage](#-usage)
+- [Switching Models](#-switching-models)
 - [Credits](#-credits)
 - [Contacts](#-contacts)
 - [Buy Me a Coffee](#-buy-me-a-coffee)
@@ -79,6 +80,19 @@ A local-first conversational AI tool featuring persistent memory. Return to your
 
 ---
 
+## 🔄 Switching Models
+
+If you wish to use a different model pulled from Ollama:
+1. Pull your desired model:
+   ```bash
+   ollama pull <your-model-name>
+   ```
+2. Open `abahchat.py` and update:
+   - `self.model_client` to your new model name.
+   - `model_info` to match the specifications of the newly pulled model.
+
+---
+
 ## 👥 Credits
 
 - **Author:** John Abah
@@ -94,6 +108,6 @@ A local-first conversational AI tool featuring persistent memory. Return to your
 
 ## ☕ Buy Me a Coffee
 
-If you found this project helpful, feel free to support:
-- [Buy Me a Coffee Link](https://buymeacoffee.com/johnabah)
+If you found this project helpful, feel free to support the development:
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/johnabah)
