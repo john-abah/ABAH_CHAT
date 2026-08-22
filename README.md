@@ -90,6 +90,7 @@ If you wish to use a different model pulled from Ollama:
 2. Open `abahchat.py` and update:
    - `self.model_client` to your new model name.
    - `model_info` to match the specifications of the newly pulled model.
+3. If the program is currently running, exit the session and run `abah_chat` again for the changes to take effect.
 
 ---
 
