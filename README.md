@@ -45,8 +45,8 @@ A local-first conversational AI tool featuring persistent memory. Return to your
 
 1. **Clone the repository and navigate to the project root:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/john-abah/ABAH_CHAT.git
+   cd ABAH_CHAT
    ```
 
 2. **Install the package in editable mode:**
